@@ -1,9 +1,9 @@
-import _ from 'lodash';
-import './style.css';
+import _ from "lodash";
+import "./style.css";
 
-console.log('hello world');
+console.log("hello world");
 
-const name = 'James';
+const name = "James";
 
 const person = { first: name };
 
@@ -14,10 +14,10 @@ const sayHelloLinting = (fName) => {
 };
 
 function component() {
-  const element = document.createElement('div');
+  const element = document.createElement("div");
 
   // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  element.innerHTML = _.join(["Hello", "webpack"], " ");
 
   return element;
 }
